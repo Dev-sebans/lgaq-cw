@@ -1,0 +1,29 @@
+.form-group {
+  border-bottom:1px solid #e4e4e4;
+  padding-bottom: 30px;
+  .form-label {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .form-control {
+    height: 50px;
+    border: 1px solid var(--light-black);
+    font-weight: 500;
+    padding-left: 40px;
+  }
+  .invalid-feedback {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .form-input-block {
+    position: relative;
+    svg {
+      position: absolute;
+      top: 15px;
+      color: #333;
+      left: 9px;
+    }
+  }
+}
